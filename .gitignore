@@ -2,4 +2,4 @@
 *.lst
 .DS_Store
 __pycache__
-temp
+temp/
