@@ -119,6 +119,14 @@ python3 code2vec.py --load models/java14_model/saved_model_iter8 --test data/jav
 ```
 While evaluating, a file named "log.txt" is written with each test example name and the model's prediction.
 
+To run the code2vec in HPC cluster:
+ * Edit the file [code2vec.sh](code2vec.sh) to adjust the cd, SBATCH (-t to -A) parameters.
+ * Execute the code2vec.sh file.
+ > sbatch code2vec.sh
+
+While evaluating, a file named "code2vec.txt" is written with current status.
+ > tail -f code2vec.txt
+
 ### Step 4: Manual examination of a trained model
 To manually examine a trained model, run:
 ```
