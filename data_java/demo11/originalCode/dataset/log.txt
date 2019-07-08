@@ -1,0 +1,16 @@
+Original: done, predicted 1st: read|string
+Original: factorial, predicted 1st: m
+		 predicted correctly at rank: 3
+Original: contains, predicted 1st: contains
+		 predicted correctly at rank: 1
+Original: get, predicted 1st: get
+		 predicted correctly at rank: 1
+Original: count, predicted 1st: count
+		 predicted correctly at rank: 1
+Original: is|prime, predicted 1st: is|prime
+		 predicted correctly at rank: 1
+Original: index|of, predicted 1st: index|of
+		 predicted correctly at rank: 1
+Original: reverse|array, predicted 1st: reverse|array
+		 predicted correctly at rank: 1
+[0.75  0.75  0.875 0.875 0.875 0.875 0.875 0.875 0.875 0.875]
