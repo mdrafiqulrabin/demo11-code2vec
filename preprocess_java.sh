@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 ###########################################################
 # Change the following values to preprocess a new dataset.
+# MAIN_DIR should be the path to the top directory
 # TRAIN_DIR, VAL_DIR and TEST_DIR should be paths to      
 #   directories containing sub-directories with .java files
 #   each of {TRAIN_DIR, VAL_DIR and TEST_DIR} should have sub-dirs,
@@ -18,7 +19,7 @@
 #   recommended to use a multi-core machine for the preprocessing 
 #   step and set this value to the number of cores.
 # PYTHON - python3 interpreter alias.
-MAIN_DIR=data_java/demo11
+MAIN_DIR=$1
 TRAIN_DIR=${MAIN_DIR}/train_dir
 VAL_DIR=${MAIN_DIR}/val_dir
 TEST_DIR=${MAIN_DIR}/test_dir
